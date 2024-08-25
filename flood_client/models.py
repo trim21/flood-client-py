@@ -1,5 +1,4 @@
 import dataclasses
-import decimal
 import enum
 
 
@@ -61,6 +60,6 @@ class File:
     index: int
     path: str
     filename: str
-    percentComplete: decimal.Decimal | None  # None for empty file
+    percentComplete: float | None  # None for empty file
     priority: int
     sizeBytes: int
