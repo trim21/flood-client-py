@@ -1,7 +1,6 @@
+import dataclasses
 import decimal
 import enum
-
-from pydantic import dataclasses
 
 
 @enum.unique
